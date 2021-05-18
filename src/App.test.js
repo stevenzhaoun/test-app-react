@@ -30,7 +30,7 @@ afterAll(() => {
 test('renders Todo App title', () => {
   const component = render(<App />);
 
-  const title = component.getByText('Todo App');
+  const title = component.getByText('Todo list App');
 
   expect(title).toBeInTheDocument();
 });
