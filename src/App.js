@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Todo App</h1>
+      <h1>Todo list App</h1>
       <Header onAdd={handleAdd} />
       {isAdding && <div>Adding</div>}
       <ul >
